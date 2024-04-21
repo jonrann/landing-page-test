@@ -1,0 +1,57 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url("/Users/jonathanann/Desktop/Coding_Dojo_Python_Stack/Complete Web Developer Bootcamp/Bootstrap/startup_files/header.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.buffer {
+  height: 4rem;
+}
+
+h1 {
+  color: white;
+  
+}
+
+hr {
+  margin: 20px auto;
+  color: #F05F44;
+  border: 2px solid #F05F44;
+  max-width: 65px;
+  opacity: 1;  
+}
+
+.btn {
+  font-weight: 700px;
+  border-radius: 200px;
+  text-transform: uppercase;
+}
+
+.btn-light {
+  background-color: #F05F44;
+  color: white;
+  border-color: #F05F44;
+}
+
+.btn:hover {
+  background-color: #F05F44;
+  color: white;
+  border-color: #F05F44;
+  border-width: 4px;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+}
